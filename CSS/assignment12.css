@@ -1,0 +1,30 @@
+*{
+    color: black;
+}
+div
+{
+    display: flex;
+}
+h1{
+    background-color: red;
+}
+h2{
+    background-color: blue;   
+}
+p{
+    background-color: chartreuse;
+
+}
+span
+{
+    background-color:chocolate;
+    width: 500px;
+}
+li
+{
+    display: inline;
+}
+input
+{
+    display: inline-block;
+}

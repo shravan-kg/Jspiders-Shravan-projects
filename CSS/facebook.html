@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="fb.css">
+</head>
+<body>
+    <section>
+<div>
+<h1>facebook</h1>
+<p>Facebook helps you connect and share <br> with the people in your life.</p>
+</div>  
+<div class="box">
+<form action="">
+<input type="text" placeholder="email or phone number"><br><br>
+<input id="password" type="password" placeholder="  Enter your password"><br><br>
+<div class="btn">
+<button class="button1">Login</button><br><br>
+<a href="photos/2021-Bugatti-Chiron-Pur-Sport-007-2400p.jpeg" target="_blank">forgot passwoard?</a>
+<hr>
+<button class="button2">Create account</button>
+</div>
+</form>
+</div>
+<button id="eye">eye</button>
+</section>
+
+<script>
+  var eye = document.getElementById("eye");
+ eye.addEventListener("click", () => {
+ var pas = document.getElementById("password");    
+ if (pas.type=="password")
+ {
+     pas.type = "text";
+ } else {
+     pas.type = "password";
+ }
+ });
+</script>
+</body>
+</html>

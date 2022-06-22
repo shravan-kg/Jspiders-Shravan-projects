@@ -1,0 +1,81 @@
+.container
+{
+background-color: brown;
+color: darkkhaki;
+height: 400px;
+width: 550px;
+position: absolute;
+top: 50%;
+left: 50%;
+
+transform: translate(-50%, -50%);
+}
+h1
+{
+    font-size: 40px;
+    animation-name: animation;
+    text-align: center;
+    animation-duration: 10s;
+}
+p
+{
+    font-size: 30px;
+    animation-name: anime2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+.img
+{
+    animation-name: anime3;
+}
+
+@keyframes animation
+{
+    0%{
+color: black;  
+}
+20%{
+    color: blue;  
+    }
+    40%{
+    color: green;  
+    }
+ 60%{
+ color:azure;  
+    }
+    80%{
+        color: cyan;  
+        }
+        100%{
+            color: goldenrod;  
+            }
+}
+
+@keyframes anime2 
+{
+0% {
+left: 0%;
+color: aliceblue;
+font-size: 40px;
+}
+30%
+{
+    left: 30%;
+    color: black;
+}
+100% {
+    left: 100%;
+}
+}
+
+@keyframes anime3
+ {
+  0% {
+       transition: 0deg;
+   } 
+   25%
+   {
+       transition: 30deg;
+   }
+}

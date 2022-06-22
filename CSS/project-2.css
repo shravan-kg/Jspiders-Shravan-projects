@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section1
+{
+width: 100vw;
+height: 100vh;
+background: url(banner\ copy.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.sidebar
+{
+    background-color: navy;
+    height: 100vh;
+    width: 25vw;
+    position: fixed;
+}
+.section2
+{
+width: 100vw;
+height: 100vh;
+background-color: grey;
+}
+.header img
+{
+    width: 50px;
+    height: 50px;
+}
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0px;
+}
+.header h1
+{
+    color: white;
+    font-size: 36px;
+}
+.nav-list{
+    text-align: center;
+}
+.nav-list ul li 
+{
+color: white;
+margin: 40px 0px;
+font-size: 20px;
+}
+.nav-list ul li::before
+{
+    content: " ";
+    color: white;
+    background-color: transparent;
+    border: white solid 1px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    border-radius: 15px;
+}
+.nav-list ul li:hover::before
+{
+width: 100%;
+transition: 1s;
+}
+.nav-list ul li::after
+{
+    content: " ";
+    background-color: transparent;
+    border-top: white solid 2px;
+    border-right: white solid 2px;
+    transform: rotate(45deg);
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    left: 5px;
+    margin-top: 6px;
+}
+.nav-list ul li:hover::after
+{
+transform: scale(1.5) rotate(45deg) translateX(5px);
+transition: 1s;
+}

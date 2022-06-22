@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+}
+section {
+  background-color: rgb(224, 224, 224);
+  height: 100vh;
+  width: 100vw;
+}
+h1 {
+  color: blue;
+  font-size: 50px;
+}
+h1:active {
+  color: red;
+}
+/* h1::first-letter {
+  font-size: 100px;
+  color: red;
+} */
+p {
+  font-size: 30px;
+}
+/* p::first-letter {
+  font-size: 50px;
+  color: blue;
+} */
+/* p::first-line {
+  color: red;
+} */
+/* p::selection {
+  background-color: white;
+  color: red;
+  font-size: 80px;
+} */
+.form_box {
+  background-color: white;
+  width: 350px;
+  height: 320px;
+  /* border-style: solid;
+  border-color: red;
+  border-width: 2px; */
+  border: solid white 3px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.513);
+}
+.form_box form input {
+  width: 330px;
+  height: 30px;
+  /* border: rgb(204, 204, 204) solid 1px; */
+  border-color: rgb(204, 204, 204);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 15px;
+}
+.form_box form input:focus {
+  border-color: rgb(63, 175, 240);
+  outline: rgba(63, 175, 240, 0.329) solid 1px;
+}
+
+.form_box form a {
+  text-decoration: none;
+}
+.form_box form a:hover {
+  text-decoration: underline;
+}
+.form_box form a:visited {
+  color: purple;
+}
+.btn button:first-child {
+  width: 330px;
+  height: 40px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgb(63, 161, 218);
+  border: rgb(63, 161, 218) solid 1px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+}
+.btn button:first-child:hover {
+  background-color: rgb(49, 127, 172);
+  transition: 0.2s;
+}
+.btn button:last-child {
+  width: 230px;
+  height: 40px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgb(47, 187, 47);
+  border: rgb(47, 187, 47) solid 1px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+}
+.btn button:last-child:hover {
+  background-color: rgb(37, 149, 37);
+  transition: 0.2s;
+}
+/* 
+.button1 {
+  width: 330px;
+  height: 40px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgb(63, 161, 218);
+  border: rgb(63, 161, 218) solid 1px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+}
+.button1:hover {
+  background-color: rgb(49, 127, 172);
+  transition: 0.2s;
+}
+.button2 {
+  width: 230px;
+  height: 40px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgb(47, 187, 47);
+  border: rgb(47, 187, 47) solid 1px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+}
+.button2:hover {
+  background-color: rgb(37, 149, 37);
+  transition: 0.2s;
+}
+.button2:active {
+  background-color: rgb(134, 233, 130);
+} */
+
+/* ::first-letter
+::first-line
+::before
+::after
+::selection */

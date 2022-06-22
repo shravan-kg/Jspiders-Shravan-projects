@@ -1,0 +1,147 @@
+
+  
+*{
+    margin: 0%;
+}
+P::selection
+{
+    background-color: yellowgreen;
+    color: orange;
+}
+section
+{
+    background-color: rgb(185, 177, 177);
+    height: 100vh;  /*view height-vh*/
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h1
+{
+font-size: 50px;
+color: blue;
+}
+p
+{
+    font-size: 40px;
+}
+p::first-letter
+{
+    color: yellow;
+}
+.box
+{
+    background-color: white;
+    width: 350px;
+    height: 280px;
+    border: whitesmoke;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.418);
+    text-align:center;
+    padding: 10px;
+    /* margin: auto; */
+    
+    /* border: black, solid, 3px; */
+
+}
+.box input
+{
+    width: 330px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 8px;
+    border:rgba(128, 128, 128, 0.726) solid 1px;
+    padding: 10px;
+    /*
+    or
+    border-color:
+    border-style:solid;
+    border-width:1px;   */
+}
+/*
+.btn button:first-child
+{
+    width: 330px;
+    height: 40px;
+    background-color: rgb(38, 51, 126);
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    border:blue;   
+}
+.btn button:last-child
+{
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    background-color: green;
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    border: green;
+}
+.btn button:first-child:hover
+{
+    background-color: blue;
+    transition: 5s;  
+    ---------------------------------------OR
+}   */
+.button1
+{
+width: 330px;
+height: 40px;
+background-color: rgb(38, 51, 126);
+font-size: 15px;
+padding: 10px;
+color: white;
+border:blue;
+}
+.button2
+{
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+    background-color: green;
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    border: green;
+}
+.button1:hover
+{
+    background-color: blue;
+    transition: 5s;
+}
+.box form a
+{
+    text-decoration: none;
+}
+.box form a:hover
+{
+    text-decoration: underline;
+}
+.box form input:focus
+{
+    border-color: blue;
+    outline: rgba(25, 25, 204, 0.678) solid 2px;
+ 
+}
+.button2:active
+{
+background-color: rgb(226, 226, 226);
+}
+.box form a:visited
+{
+    color: red;
+}
+
+
+
+
+/* position: absolute; to position freely or place one another    sticky,fixed,static
+             top:
+             right: 
+             */
